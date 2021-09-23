@@ -1,1 +1,1 @@
-A simple command-line application.
+Simple Application Berupa ATM Sederhana
