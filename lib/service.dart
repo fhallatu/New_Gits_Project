@@ -14,6 +14,7 @@ void service(currentUser) {
   print('3. Setoran Tunai');
   print('4. Transfer');
   print('5. Ganti Akun');
+  print('6. Keluar');
 
   print('Masukkan Layanan Yang Anda Pilih');
   stdout.write('Layanan : ');
@@ -85,6 +86,11 @@ void service(currentUser) {
     case 5:
       {
         login();
+        break;
+      }
+    case 6:
+      {
+        finish();
         break;
       }
     default:
